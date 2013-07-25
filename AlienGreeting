@@ -1,0 +1,23 @@
+
+/* Program prints four lines with personalized greetings  */
+
+class PersonalGreeter {
+   public static void sayHi(String who) {
+      System.out.println("Greetings " + who + "!");
+  }
+
+   public static void explainIt(String what) {
+      System.out.println("We are coming to " + what + " the earth! I hope you do not mind.");
+  }
+}
+
+// public class prints personalized greetings
+
+public class AlienGreeting {
+   public static void main (String[] args) {
+      PersonalGreeter.sayHi("Tyrion");
+      PersonalMessage.explainIt("annihilate");
+      PersonalGreeter.sayHi("Ned");
+      PersonalMessage.explainIt("poop on");
+  }
+}  
